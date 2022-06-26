@@ -20,7 +20,7 @@ function App() {
 
   const [address, setAddress] = useState(null);
 
-  const web3 = createAlchemyWeb3(`https://polygon-mumbai.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY.toString()}`);
+  const web3 = createAlchemyWeb3("https://polygon-mumbai.g.alchemy.com/v2/AdBiEDW529F6v_93u-1u0TLIgVyZNwNS");
   const minterContract = new web3.eth.Contract(MyNFTAbi.abi, MyNFTAddress.MyNFT);
   const client = ipfsHttpClient("https://ipfs.infura.io:5001/api/v0");
   
