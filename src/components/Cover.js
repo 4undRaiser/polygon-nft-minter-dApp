@@ -28,7 +28,7 @@ const Cover = ({ name, coverImg, connect }) => {
             </Button>
           </div>
 
-          <p className="mt-auto text-secondary">Powered by Celo</p>
+          <p className="mt-auto text-secondary">Powered by Polygon</p>
         </div>
     );
   }
